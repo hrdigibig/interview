@@ -42,7 +42,7 @@ create table t_user(
         |参数|名称|类型|是否必输|
         |---------|---------|---------|---------|
         |id|主键标识|int|Y
-        
+
  - 输出参数列表:
 
         |参数|名称|类型|是否必输|
@@ -70,6 +70,25 @@ create table t_user(
         |---------|---------|---------|---------|
         |code|应答码|int|Y
         |desc|应答描述|string|Y
+
+- **查询所有用户列表**
+ - 输入参数：
+        无
+ - 输出参数：
+
+        |参数|名称|类型|是否必输|
+        |----|----|---|-----|
+        |id|主键标识|int|Y
+        |username|用户名|string|Y
+        |gender|性别|int|Y
+        |mobile|手机号码|string|Y
+        |email|邮箱|string|Y
+        |birthday|生日|string|Y
+        |level|用户等级|int|Y
+        |enable|用户状态|int|Y
+        |create_time|注册时间|string|Y
+        |last_time|最近修改时间|string|Y
+
 
 
 ### 技术要求
