@@ -16,7 +16,7 @@ create table t_user(
     last_time timestamp not null default current_timestamp on update current_timestamp  comment '最近修改时间'
 )comment '用户信息表';
 ```
-### 请按照以上表结构完成以下4个接口的开发
+### 请按照以上表结构完成以下接口的开发
 - **添加用户**
  - 输入参数列表:
 <table>
@@ -224,7 +224,6 @@ create table t_user(
         </tr>
     </tbody>
 </table>
-
 ### 技术要求
 - 必须使用spring
 - 必须使用maven
