@@ -1,5 +1,4 @@
-# 数多科技机试题
-## 需求说明
+# 需求说明
 现有数据库表结构如下:
 ```
 create table t_user(
@@ -16,7 +15,7 @@ create table t_user(
     last_time timestamp not null default current_timestamp on update current_timestamp  comment '最近修改时间'
 )comment '用户信息表';
 ```
-### 请按照以上表结构完成以下接口的开发
+## 请按照以上表结构完成以下接口的开发
 - **添加用户**
  - 输入参数列表:
 
@@ -91,28 +90,19 @@ create table t_user(
 
 
 
-### 技术要求
+## 技术要求
 - 必须使用spring
 - 必须使用maven
 - 完整的事物管理
 - 接口输入输出使用json格式
-- **开发完成之后必须上传到你的git仓库**
 
-### 加分项
+
+## 加分项
 - 接口遵循rest规范
 - 单元测试
 - 完整的日志输出
 - 良好的编程习惯，包括但不限于注释、异常处理等等
 - 良好的性能
 
-### 备注
-- 可选开发工具eclipse、idea
-- 数据库连接参数
-
-    |参数|值|
-    |----|----|
-    |ip|127.0.0.1|
-    |port|3306|
-    |username|root|
-    |password|123456|
-    |database|interviewdb|
+## 备注
+- **开发完成之后请提交Pull Request**
