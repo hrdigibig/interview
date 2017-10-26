@@ -16,7 +16,7 @@ create table t_user(
     last_time timestamp not null default current_timestamp on update current_timestamp  comment '最近修改时间'
 )comment '用户信息表';
 ```
-- 请按照以上表结构完成以下接口列表的开发
-1. 用户添加
-2. 根据ID查询用户信息
-3. 禁用
+### 请按照以上表结构完成以下接口列表的开发
+- 用户添加
+- 根据ID查询用户信息
+- 禁用
