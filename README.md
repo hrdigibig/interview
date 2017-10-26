@@ -21,10 +21,44 @@ create table t_user(
  - 输入参数列表:
 <table>
     <thead>
-        <tr><th>参数</th></tr>
+        <tr>
+            <th>参数</th>
+            <th>名称</th>
+            <th>类型</th>
+            <th>是否必填</th>
+        </tr>
     </thead>
     <tbody>
-        <tr><td>name</td></tr>
+        <tr>
+            <td>username</td>
+            <td>用户名</td>
+            <td>string</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>性别</td>
+            <td>int</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>mobile</td>
+            <td>手机号码</td>
+            <td>string</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td>邮箱地址</td>
+            <td>string</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>birthday</td>
+            <td>生日</td>
+            <td>string</td>
+            <td>Y</td>
+        </tr>
     </tbody>
 </table>
 - 根据ID查询用户信息
