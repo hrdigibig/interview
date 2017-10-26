@@ -246,3 +246,12 @@ create table t_user(
     port:3306<br>
     username:root<br>
     password:123456<br>
+
+|No.|功能|负责人|github 账号|
+|---------|---------|---------|---------|
+|1|需要支持consul作为服务注册中心|梁燕东|liangyd1024|
+|2|server注册到注册中心时，需要申明自己的能力，也就是可以承受的QPS|泽西||
+|3|支持json/http访问内部服务|杜雷|Tony-dulei|
+|4|追加失败策|yifeng|yifeng0898|
+|5|Mock返回功能server|待定||
+|6|支持按照服务器端的能力进行分片访问|待定||
