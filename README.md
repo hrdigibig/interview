@@ -16,77 +16,78 @@ create table t_user(
 )comment '用户信息表';
 ```
 ## 请按照以上表结构完成以下接口的开发
+
 - **添加用户**
  - 输入参数列表:
 
-        |参数|名称|类型|是否必输|
-        |----|----|---|-----|
-        |id|主键标识|int|Y
-        |username|用户名|string|Y
-        |gender|性别|int|Y
-        |mobile|手机号码|string|Y
-        |email|邮箱|string|Y
-        |birthday|生日|string|Y
+|参数|名称|类型|是否必输|
+|----|----|---|-----|
+|id|主键标识|int|Y
+|username|用户名|string|Y
+|gender|性别|int|Y
+|mobile|手机号码|string|Y
+|email|邮箱|string|Y
+|birthday|生日|string|Y
 
  - 输出参数列表:
 
-        |参数|名称|类型|是否必输|
-        |---------|---------|---------|---------|
-        |code|应答码|int|Y
-        |desc|应答描述|string|Y
+|参数|名称|类型|是否必输|
+|---------|---------|---------|---------|
+|code|应答码|int|Y
+|desc|应答描述|string|Y
 
 - **根据ID查询用户信息**
  - 输入参数列表： 
 
-        |参数|名称|类型|是否必输|
-        |---------|---------|---------|---------|
-        |id|主键标识|int|Y
+|参数|名称|类型|是否必输|
+|---------|---------|---------|---------|
+|id|主键标识|int|Y
 
  - 输出参数列表:
 
-        |参数|名称|类型|是否必输|
-        |----|----|---|-----|
-        |id|主键标识|int|Y
-        |username|用户名|string|Y
-        |gender|性别|int|Y
-        |mobile|手机号码|string|Y
-        |email|邮箱|string|Y
-        |birthday|生日|string|Y
-        |level|用户等级|int|Y
-        |enable|用户状态|int|Y
-        |create_time|注册时间|string|Y
-        |last_time|最近修改时间|string|Y
+|参数|名称|类型|是否必输|
+|----|----|---|-----|
+|id|主键标识|int|Y
+|username|用户名|string|Y
+|gender|性别|int|Y
+|mobile|手机号码|string|Y
+|email|邮箱|string|Y
+|birthday|生日|string|Y
+|level|用户等级|int|Y
+|enable|用户状态|int|Y
+|create_time|注册时间|string|Y
+|last_time|最近修改时间|string|Y
 - **按ID禁用用户**
  - 输入参数列表：
 
-        |参数|名称|类型|是否必输|
-        |---------|---------|---------|---------|
-        |id|主键标识|int|Y
+|参数|名称|类型|是否必输|
+|---------|---------|---------|---------|
+|id|主键标识|int|Y
 
  - 输出参数列表：
 
-        |参数|名称|类型|是否必输|
-        |---------|---------|---------|---------|
-        |code|应答码|int|Y
-        |desc|应答描述|string|Y
+|参数|名称|类型|是否必输|
+|---------|---------|---------|---------|
+|code|应答码|int|Y
+|desc|应答描述|string|Y
 
 - **查询所有用户列表**
  - 输入参数：
         无
  - 输出参数：
 
-        |参数|名称|类型|是否必输|
-        |----|----|---|-----|
-        |id|主键标识|int|Y
-        |username|用户名|string|Y
-        |gender|性别|int|Y
-        |mobile|手机号码|string|Y
-        |email|邮箱|string|Y
-        |birthday|生日|string|Y
-        |level|用户等级|int|Y
-        |enable|用户状态|int|Y
-        |create_time|注册时间|string|Y
-        |last_time|最近修改时间|string|Y
+|参数|名称|类型|是否必输|
+|----|----|---|-----|
+|id|主键标识|int|Y
+|username|用户名|string|Y
+|gender|性别|int|Y
+|mobile|手机号码|string|Y
+|email|邮箱|string|Y
+|birthday|生日|string|Y
+|level|用户等级|int|Y
+|enable|用户状态|int|Y
+|create_time|注册时间|string|Y
+|last_time|最近修改时间|string|Y
 
 
 
