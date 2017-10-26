@@ -17,7 +17,7 @@ create table t_user(
 )comment '用户信息表';
 ```
 ### 请按照以上表结构完成以下接口列表的开发
-- ** 用户添加 **
+- **用户添加**
  - 输入参数列表:
 <table>
     <thead>
@@ -86,7 +86,7 @@ create table t_user(
         </tr>
     </tbody>
 </table>
-- 根据ID查询用户信息
+- **根据ID查询用户信息**
  - 输入参数列表： 
 <table>
     <thead>
@@ -179,9 +179,9 @@ create table t_user(
         </tr>
     </tbody>
 </table>
-- 按ID禁用用户
+- **按ID禁用用户**
 
-- 分页查询
+- **分页查询**
 
 ### 技术要点
 - 必须使用spring
