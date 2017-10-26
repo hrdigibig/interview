@@ -224,6 +224,7 @@ create table t_user(
         </tr>
     </tbody>
 </table>
+
 ### 技术要求
 - 必须使用spring
 - 必须使用maven
