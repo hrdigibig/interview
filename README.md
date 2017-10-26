@@ -113,5 +113,6 @@ create table t_user(
     username:root<br>
     password:123456<br>
 
+    |----|----|---|-----|
     |ip|127.0.0.1|
     |port|3306|
