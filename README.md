@@ -16,8 +16,8 @@ create table t_user(
     last_time timestamp not null default current_timestamp on update current_timestamp  comment '最近修改时间'
 )comment '用户信息表';
 ```
-### 请按照以上表结构完成以下接口列表的开发
-- **用户添加**
+### 请按照以上表结构完成以下4个接口的开发
+- **添加用户**
  - 输入参数列表:
 <table>
     <thead>
@@ -180,16 +180,67 @@ create table t_user(
     </tbody>
 </table>
 - **按ID禁用用户**
+ - 输入参数列表：
+ <table>
+    <thead>
+        <tr>
+            <th>参数</th>
+            <th>名称</th>
+            <th>类型</th>
+            <th>是否必填</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>id</td>
+            <td>主键标识</td>
+            <td>int</td>
+            <td>Y</td>
+        </tr>
+    </tbody>
+</table>
+ - 输出参数列表：
+ <table>
+    <thead>
+        <tr>
+            <th>参数</th>
+            <th>名称</th>
+            <th>类型</th>
+            <th>是否必填</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>code</td>
+            <td>应答码</td>
+            <td>int</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>desc</td>
+            <td>应答描述</td>
+            <td>string</td>
+            <td>Y</td>
+        </tr>
+    </tbody>
+</table>
 
-- **分页查询**
-
-### 技术要点
+### 技术要求
 - 必须使用spring
-- 完整的事物管理
 - 必须使用maven
+- 完整的事物管理
 - 接口输入输出使用json格式
 
 ### 加分项
+- 接口遵循rest规范
 - 完整的日志输出
 - 良好的编程习惯，包括但不限于注释、异常处理等等
 - 良好的性能
+
+### 备注
+- 可选开发工具eclipse、idea
+- 数据库连接参数
+    ip:127.0.0
+    port:3306
+    username:root
+    password:123456
