@@ -19,8 +19,11 @@ create table t_user(
 ### 请按照以上表结构完成以下接口列表的开发
 - 用户添加
  - 输入参数列表:
-   参数|名称|是否可选|类型
-   -|-|-|-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 - 根据ID查询用户信息
 - 按ID禁用用户
 - 分页查询
