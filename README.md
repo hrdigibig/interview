@@ -240,7 +240,7 @@ create table t_user(
 ### 备注
 - 可选开发工具eclipse、idea
 - 数据库连接参数
-    ip:127.0.0
-    port:3306
-    username:root
-    password:123456
+    ip:127.0.0.1<br>
+    port:3306<br>
+    username:root<br>
+    password:123456<br>
