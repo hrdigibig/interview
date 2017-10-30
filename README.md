@@ -106,4 +106,4 @@ create table t_user(
 - 良好的性能
 
 ## 备注
-- **开发完成之后请提交Pull Request**
+- **开发完成后需要您把代码打包发送到HR.Digibig@we.com.**
