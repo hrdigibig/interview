@@ -92,7 +92,7 @@ create table t_user(
 
 
 ## 技术要求
-- 必须使用spring
+- 必须使用spring相关技术与框架
 - 必须使用maven
 - 完整的事物管理
 - 接口输入输出使用json格式
